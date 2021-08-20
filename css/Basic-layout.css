@@ -1,0 +1,12 @@
+body {
+  display: grid;
+  grid-template-rows: 1fr 8fr 1fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "head"
+    "content"
+    "footer";
+  height: 100vh;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
