@@ -23,3 +23,6 @@ nav > ul > a {
     margin-bottom: 0;
     text-decoration: none;
 }
+nav > ul > a:hover {
+  color:rgb(20, 123, 220);
+}
