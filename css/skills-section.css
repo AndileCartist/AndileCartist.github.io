@@ -18,15 +18,25 @@ header > h2 {
   align-items: center;
   font-size: 30px;
 }
+.skills-description > h3 {
+  margin-top: 0px;
+}
 .skills-container {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
 }
+.skills-container > img {
+  max-height: 400px;
+  margin-bottom: 10px;
+}
 .skills-description > ul > li{
   text-decoration: none;
   list-style: none;
+}
+.skills-description > ul {
+  padding-right: 10px;
 }
 @media only screen and (min-width: 800px) {
   .header-size {
@@ -34,6 +44,7 @@ header > h2 {
   }
   .skills-container {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 }
