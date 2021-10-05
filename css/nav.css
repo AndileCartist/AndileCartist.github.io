@@ -15,9 +15,14 @@ nav > ul {
   display: flex;
   align-items: center;
   margin-bottom: 0;
+  margin-top: 0px;
+  margin-right: 30px;
 }
 nav > ul > a {
     margin: 0 15px;
     margin-bottom: 0;
     text-decoration: none;
+}
+nav > ul > a:hover {
+  color:rgb(20, 123, 220);
 }
