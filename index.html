@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
       rel="stylesheet"
@@ -13,12 +19,110 @@
     <title>Personal Website</title>
   </head>
   <body>
-      <nav>
-          <img src="./assets/ef057fb3032f4e13b53d41118b7348a3.png" alt="logo of a furious lion">
-          <ul>
-              <a href="">PROJECTS</a>
-              <a href="">SKILLS</a>
-          </ul>
-      </nav>
+    <nav>
+      <img
+        src="./assets/ef057fb3032f4e13b53d41118b7348a3.png"
+        alt="logo of a furious lion"
+      />
+      <ul>
+        <a href="#about">PROJECTS</a>
+        <a href="#skill">SKILLS</a>
+      </ul>
+    </nav>
+    <main>
+      <div class="baner">
+        <img src="./assets/photo-1542831371-29b0f74f9713.jpg" alt="image of computer screen" />
+        <img
+          class="web-baner"
+          src="./assets/florian-olivo-4hbJ-eymZ1o-unsplash.jpg"
+          alt="image of a computer screen"
+        />
+      </div>
+      <section class="skills">
+        <header>
+          <h2 class="header-size">Relevent Skills</h2>
+        </header>
+        <div class="skills-container">
+          <img
+            src="./assets/Working_the_land_Public_domain_vectors_-_2021-08-20_16.58.53.png"
+            alt=""
+          />
+          <div class="skills-description">
+            <h3>core skills</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Vue.js</li>
+              <li>BootStrap</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="about-container">
+        <div>
+          <img src="./assets/IMG_20191018_164650.jpg" alt="image of me" />
+          <div class="about-description">
+            <q
+              >My name is Andile Mkhize, from Durban,a solution-driven person,
+              eager to contribute to highly collaborative work environment,
+              finding solutions and determining customer satisfaction. Proven
+              experience developing websites using HTML, CSS, and
+              JavaScript(Vue.js).I pay special attention at meeting highest
+              standards for web design, user experience, best practices and
+              perfomance. Eager to contribute to team success through hard work,
+              attention to detail and excellent organizational skills. Motivated
+              to learn, grow and excel in Web development..</q
+            >
+            <div class="projects">
+              <h3>Recent work</h3>
+              <h4>News Curator(using external API's)</h4>
+              <ul>
+                <li>
+                  Project aim was to integrate & interact with an external API
+                  to be the main source of data.
+                </li>
+                <li>
+                  To deliver personalized content by studying user behavior
+                  through google analytics & preferred categories chosen by
+                  user.
+                </li>
+                <li>
+                  Added email(marketing) functionality to send newsletters to
+                  our subscribers.
+                </li>
+              </ul>
+              <p>Link: <a href="https://mzansi-curator.netlify.app/" target="_blank" rel="noopener noreferrer">Mzansi Curator</a></p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer-distributed">
+        <div class="footer-left">
+          <h3>Personal-<span>Website</span></h3>
+          <p class="footer-links">
+            <p>Email: andilemkhizekhabazela@gmail.com</p>
+            <p>Contact: 071 904 8241</p>
+            <a href="https://twitter.com/Andilemkhize3" target="_blank" rel="noopener noreferrer">twitter account</a>
+          </p>
+    
+          <p class="footer-company-name">Company Name © 2015</p>
+    
+          <div class="footer-icons">
+          </div>
+        </div>
+    
+        <div class="footer-right">
+          <p>Reach out</p>
+    
+          <form action="#" method="post">
+            <input type="text" name="email" placeholder="Email" />
+            <textarea name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+          </form>
+        </div>
+      </footer>
   </body>
 </html>
