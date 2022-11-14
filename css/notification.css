@@ -13,6 +13,15 @@
     font-size: 20px;
     min-height: 40px;
   }
+  .validation-text {
+    font-family: 'PT Sans';
+    color: #ff4a4a;
+    font-size: 18px;
+    margin: 2px 0 4px 0;
+    font-weight: 500;
+    letter-spacing: 3px;
+    visibility: hidden;
+  }
   
   .notification.show {
     visibility: visible;
