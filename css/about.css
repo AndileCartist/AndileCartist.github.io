@@ -16,7 +16,7 @@
 }
 .about-container > div > img {
   width: 30%;
-  border-radius: 80%;
+  border-radius: 50%;
   margin-top: 20px;
 }
 .about-description {
@@ -34,7 +34,6 @@
   }
   .about-container > div > img {
     width: 11%;
-    border-radius: 80%;
     margin: 20px 40px
   }
 }
