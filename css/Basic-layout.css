@@ -9,4 +9,6 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'PT Sans', sans-serif;
+  word-spacing: 5px;
+  line-height: 36px;
 }
