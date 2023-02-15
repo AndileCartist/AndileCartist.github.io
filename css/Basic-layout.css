@@ -12,3 +12,7 @@ body {
   word-spacing: 5px;
   line-height: 36px;
 }
+
+html {
+  scroll-behavior: smooth;
+}

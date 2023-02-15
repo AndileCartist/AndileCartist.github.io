@@ -28,6 +28,9 @@ header > h2 {
     align-items: center;
     margin: 30px 0;
 }
+.skills {
+  padding-top: 100px;
+}
 .skills-container > img {
   max-height: 400px;
   margin-bottom: 10px;
